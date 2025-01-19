@@ -1,3 +1,4 @@
+
 export default function DetailsPage() {
   return (
     <>
@@ -6,12 +7,15 @@ export default function DetailsPage() {
         <p className="FlavText">More about me</p>
         <div className="DetailBox">
           <h1>Education:</h1>
+          <p>EDUVOS, Bacholers of science (2022 - 2024)</p>
         </div>
         <div className="DetailBox">
           <h1>Projects:</h1>
         </div>
         <div className="DetailBox">
           <h1>Experience:</h1>
+          <div>
+          </div>
         </div>
         <div className="DetailBox">
           <h1>Achivments:</h1>

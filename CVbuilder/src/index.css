@@ -8,17 +8,18 @@ body{
     font-size: 30px;
     font-style: italic;
     margin: 0px 0px 50px 20px;
+    color: var(--flavtext);
 }
 .HeadingText{
     font-size: 5em;
     margin-bottom: 10px;
 }
 :root {
-        /* Colours */
-        --color-text: #fff;
-        --color-primary: #576cbc;
-        --color-secondary: #19376d;
-        --color-dark: #0b2447;
-        --color-bg: #04152d;
-
+    /* Colours */
+    --color-text: #fff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+    --flavtext: rgb(0, 255, 229);
 }
