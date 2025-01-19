@@ -1,14 +1,28 @@
+@import "../../index.css";
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    width: 50%;
+    margin:auto;
 }
 
 .nav-menu{
+    margin:auto;
     display: flex;
     align-items: center;
     list-style: none;
     gap: 20px;
-    font-size: 1em;
+    
+    font-size: 2em;
+    color: white;
+    border: 1px solid white;
+}
+.MenuItem{
+    border: 1px solid white;
+}
+.MenuItem a{
+    text-decoration: none;
+    color: var(--color-text);
 }

@@ -1,7 +1,22 @@
-export default function DetailsPage(){
-    return (<>
-        <div>
-            <h1>Details page</h1>
+export default function DetailsPage() {
+  return (
+    <>
+      <div className="DetailPageDiv">
+        <h1 className="HeadingText">Details page</h1>
+        <p className="FlavText">More about me</p>
+        <div className="DetailBox">
+          <h1>Education:</h1>
         </div>
-    </>)
+        <div className="DetailBox">
+          <h1>Projects:</h1>
+        </div>
+        <div className="DetailBox">
+          <h1>Experience:</h1>
+        </div>
+        <div className="DetailBox">
+          <h1>Achivments:</h1>
+        </div>
+      </div>
+    </>
+  );
 }
