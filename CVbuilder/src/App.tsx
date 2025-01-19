@@ -1,12 +1,12 @@
 import { useState } from 'react'
 
-import './App.css'
+import NavigationHeader from './components/NavigationBar/NavigationHeader'
 
 function App() {
 
   return (
     <>
-      
+      <NavigationHeader/>
     </>
   )
 }
