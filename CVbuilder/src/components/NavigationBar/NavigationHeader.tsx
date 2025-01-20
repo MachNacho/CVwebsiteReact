@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 function SaveCV() {
@@ -20,16 +21,16 @@ export default function NavigationHeader() {
       <div className="navbar">
         <ul className="nav-menu">
           <li className="MenuItem">
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="MenuItem">
-            <a href="#">Details</a>
+          <Link to="/Details">Details</Link>
           </li>
           <li className="MenuItem">
-            <a href="#">Hobbies</a>
+          <Link to="/Hobbies">Hobbies</Link>
           </li>
           <li className="MenuItem">
-            <a href="#">Contact me</a>
+          <Link to="/ContactMe">Contact Me</Link>
           </li>
         </ul>
         <div className="CVsection">

@@ -8,19 +8,19 @@ export default function ContactMePage() {
         <div className="ContactContainer">
           <div className="ContactBox">
             <h1>Email Me:</h1>
-            <p>MSDM@DKFM.COM</p>
+            <p>Asiphile@gmail.com</p>
           </div>
           <div className="ContactBox">
             <h1>Phone Me:</h1>
             <p>############</p>
           </div>
           <div className="ContactBox">
-            <h1>Soacials:</h1>
+            <h1>Socials:</h1>
             <ul>
-              <li>s</li>
-              <li>s</li>
-              <li>s</li>
-              <li>s</li>
+              <li>X</li>
+              <li>Linkedin</li>
+              <li>Facebook</li>
+              <li>GitHub</li>
             </ul>
           </div>
         </div>
