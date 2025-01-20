@@ -1,4 +1,5 @@
-import './hobbies.css';
+import "./hobbies.css";
+//FIXME refactor hobbies to json file
 export default function HobbiesPage() {
   return (
     <>
