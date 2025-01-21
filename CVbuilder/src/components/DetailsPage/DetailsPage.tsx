@@ -29,7 +29,6 @@ export default function DetailsPage() {
           <h1 className="DetailTopicHead">Achivments:</h1>
           <AchivementsList />
         </div>
-        <hr />
       </div>
     </>
   );

@@ -4,6 +4,7 @@ import ContactMe from "./Pages/ContactMe";
 import Details from "./Pages/Details";
 import Hobbies from "./Pages/Hobbies";
 
+
 function App() {
   return (
     <>
