@@ -27,7 +27,9 @@ export default function DetailsPage() {
         <hr />
         <div className="DetailBox">
           <h1 className="DetailTopicHead">Achivments:</h1>
+          <div className="Container">
           <AchivementsList />
+          </div>
         </div>
       </div>
     </>

@@ -13,7 +13,7 @@ const AchivementsList: React.FC = () => {
   return (
     <div>
       {achievments.map((ach, index) => (
-        <div key={index}>
+        <div key={index} className="indACHcONT">
           <h3 className="subHeadingDetails">{ach.name}</h3>
           <p>
             Acquired: {ach.dateAcquired} <br />
