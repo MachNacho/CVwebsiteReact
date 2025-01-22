@@ -1,5 +1,5 @@
 import "./HP.css";
-import getImageUrl from "../../assets/images/ASI-image.jpg";
+import getImageUrl from "/images/ASI-image.jpg";
 export default function HomePage() {
   return (
     <>
