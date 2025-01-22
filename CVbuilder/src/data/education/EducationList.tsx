@@ -15,9 +15,9 @@ const EducationList: React.FC = () => {
   const education: Education[] = data;
 
   return (
-    <div className="Container">
+    <div>
       {education.map((edu, index) => (
-        <div key={index} className="DetBox">
+        <div key={index}>
           <h2 className="subHeadingDetails">{edu.degree}</h2>
           <p>
             {edu.institution} ({edu.startDate} - {edu.endDate})
@@ -28,11 +28,8 @@ const EducationList: React.FC = () => {
               <li key={i}>{detail}</li>
             ))}
           </ul>
-          <img
-            src={edu.imageSrc}
-            alt={edu.institution}
-            style={{ width: "100px" }}
-          />
+          <img src={edu.imageSrc} alt={edu.institution} style={{ width: '100px' }} />
+        
         </div>
       ))}
     </div>

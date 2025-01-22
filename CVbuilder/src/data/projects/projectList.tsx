@@ -13,10 +13,10 @@ const ProjectList: React.FC = () => {
   const project: Project[] = data;
 
   return (
-    <div className="Container">
+    <div>
       {project.map((pro, index) => (
-        <div key={index} className="DetBox">
-          <h2 className="subHeadingDetails">{pro.name}</h2>
+        <div key={index}> 
+        <h2 className="subHeadingDetails">{pro.name}</h2>
           <p>
             <strong>Date:</strong> {pro.date}
           </p>

@@ -2,7 +2,6 @@ import AchivementsList from "../../data/Achivements/AchivementsList";
 import EducationList from "../../data/education/EducationList";
 import ExperienceList from "../../data/experience/experincelist";
 import ProjectList from "../../data/projects/projectList";
-import DetailsNavBar from "../detailsnav/detailsnav";
 import "./DP.css";
 export default function DetailsPage() {
   return (
@@ -10,7 +9,6 @@ export default function DetailsPage() {
       <div className="DetailPageDiv">
         <h1 className="HeadingText">Details page</h1>
         <p className="FlavText">More about me</p>
-              <DetailsNavBar />
         <div className="DetailBox">
           <h1 className="DetailTopicHead">Education:</h1>
           <EducationList />
@@ -29,7 +27,9 @@ export default function DetailsPage() {
         <hr />
         <div className="DetailBox">
           <h1 className="DetailTopicHead">Achivments:</h1>
+          <div className="Container">
           <AchivementsList />
+          </div>
         </div>
       </div>
     </>
