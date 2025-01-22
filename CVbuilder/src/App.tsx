@@ -15,6 +15,7 @@ function App() {
           <Route path="ContactMe" element={<ContactMe />} />
           <Route path="Hobbies" element={<Hobbies />} />
           <Route path="Details" element={<Details />} />
+          {/*TODO Add 404 routing*/}
         </Routes>
       </BrowserRouter>
     </>

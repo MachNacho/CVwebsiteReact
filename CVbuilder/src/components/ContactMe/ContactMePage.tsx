@@ -1,3 +1,4 @@
+import SocialList from "../../data/Socails/Soacialslist";
 import "./CMP.css";
 export default function ContactMePage() {
   return (
@@ -22,6 +23,7 @@ export default function ContactMePage() {
               <li>Facebook</li>
               <li>GitHub</li>
             </ul>
+            <SocialList />
           </div>
         </div>
       </div>

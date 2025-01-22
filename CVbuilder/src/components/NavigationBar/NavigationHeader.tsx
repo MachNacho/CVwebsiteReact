@@ -17,6 +17,11 @@ export default function NavigationHeader() {
           <li className="MenuItem">
             <Link to="/ContactMe">Contact Me</Link>
           </li>
+          <li className="MenuItem">
+            <a href="/file/CV.pdf" download>
+              Download CV
+            </a>
+          </li>
         </ul>
         <div className="CVsection"></div>
       </div>
