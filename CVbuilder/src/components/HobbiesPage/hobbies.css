@@ -1,8 +1,13 @@
-.HobbyText{
-    width: 50%;
-    border: 1px solid rgb(25, 221, 81);
-    margin: 0px 10px;
+.HobbyText {
+  width: 50%;
+  border: 1px solid rgb(25, 221, 81);
+  margin: 0px 10px;
+  padding: 20px;
 }
-.HobbyBox{
-    display: flex;
+.HobbyBox {
+  display: flex;
+}
+.HobbyText img {
+
+  width: 300px;
 }

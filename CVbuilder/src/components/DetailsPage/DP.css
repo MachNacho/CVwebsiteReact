@@ -1,37 +1,35 @@
-.subHeadingDetails{
-    color: rgb(233, 10, 10);
+.subHeadingDetails {
+  color: rgb(233, 10, 10);
 }
-.DetailTopicHead{
-    font-size: 5em;
-    font-style: italic;
-    color: blueviolet;
+.DetailTopicHead {
+  font-size: 5em;
+  font-style: italic;
+  color: blueviolet;
 }
 .Container {
-    display:flexbox;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-  }
-  
-  .indACHcONT {
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 16px;
-    width: 200px; /* Adjust width as needed */
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .subHeadingDetails {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  
-  p {
-    margin: 0;
-    color: #555;
-  }
-  
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.iconPic{
+  width: 50%;
+
+}
+.DetBox {
+  color: black;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 200px;
+  background-color: #dadada;
+  text-align: center;
+}
+
+.subHeadingDetails {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}

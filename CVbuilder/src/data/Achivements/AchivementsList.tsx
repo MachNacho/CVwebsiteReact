@@ -11,9 +11,9 @@ const AchivementsList: React.FC = () => {
   const achievments: Achievement[] = data;
 
   return (
-    <div>
+    <div className="Container">
       {achievments.map((ach, index) => (
-        <div key={index} className="indACHcONT">
+        <div key={index} className="DetBox">
           <h3 className="subHeadingDetails">{ach.name}</h3>
           <p>
             Acquired: {ach.dateAcquired} <br />

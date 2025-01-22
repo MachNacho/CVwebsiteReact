@@ -11,11 +11,11 @@ interface Experience {
 
 const ExperienceList: React.FC = () => {
   const experiences: Experience[] = data;
-
+  
   return (
-    <div>
+    <div className="Container">
       {experiences.map((exp, index) => (
-        <div key={index}>
+        <div key={index} className="DetBox">
           <h2 className="subHeadingDetails">{exp.role}</h2>
           <p>{exp.organisation}</p>
           <p>
@@ -26,7 +26,7 @@ const ExperienceList: React.FC = () => {
               <li key={i}>{task}</li>
             ))}
           </ul>
-          <img src={exp.imageSrc} alt={exp.role} style={{ width: "100px" }} />
+          <Iconpic value = {exp.imageSrc}/>
         </div>
       ))}
     </div>
@@ -34,3 +34,7 @@ const ExperienceList: React.FC = () => {
 };
 
 export default ExperienceList;
+
+function Iconpic({ value }: { value: string }) {
+  return <img src={value} className="iconPic"></img>;
+}
