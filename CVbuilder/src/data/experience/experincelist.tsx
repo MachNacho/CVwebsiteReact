@@ -1,5 +1,13 @@
+{
+  /*
+  This component allows for fetching and displaying of json file to fill details such as hobbies, experince .... Without the need to edit the react files  
+  */
+}
+
+//Imports the json file
 import data from "./exp.json";
 
+//Interface to validate JSON objects
 interface Experience {
   role: string;
   organisation: string;
@@ -9,6 +17,7 @@ interface Experience {
   imageSrc: string;
 }
 
+// function to return each object in JSON with formating to display on page
 const ExperienceList: React.FC = () => {
   const experiences: Experience[] = data;
 

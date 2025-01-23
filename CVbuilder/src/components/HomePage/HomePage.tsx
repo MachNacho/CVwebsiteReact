@@ -22,6 +22,7 @@ export default function HomePage() {
   );
 }
 
+// This function is used to load the image from the prop
 function ProfilePic({ value }: { value: string }) {
   return <img src={value} className="profilePic"></img>;
 }
