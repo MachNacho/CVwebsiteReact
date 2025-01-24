@@ -13,5 +13,15 @@
         "title": "Cooking",
         "description": "Cooking is a creative hobby that lets you experiment with different ingredients and flavors.",
         "image_src": "/images/cooking.jpg"
+    },
+    {
+        "title": "Motorsports",
+        "description": "I enjoy watching cars go in circles really fast.",
+        "image_src": "/images/motorsports.jpg"
+    },
+    {
+        "title": "Motorsports",
+        "description": "I enjoy watching cars go in circles really fast.",
+        "image_src": "/images/motorsports.jpg"
     }
 ]

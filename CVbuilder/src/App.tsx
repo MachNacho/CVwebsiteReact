@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import ContactMe from "./Pages/ContactMe";
 import Details from "./Pages/Details";
 import Hobbies from "./Pages/Hobbies";
+import NoPage from "./Pages/NoPage";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="ContactMe" element={<ContactMe />} />
           <Route path="Hobbies" element={<Hobbies />} />
           <Route path="Details" element={<Details />} />
-          {/* TODO: Add 404 page or catch-all route to handle non-existing paths */}
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
     </>

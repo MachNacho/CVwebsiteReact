@@ -1,30 +1,27 @@
 # CV react website
+
 This project is a simple CV/Portfolio website.
 
 This contains:
+
 - React
+- Typescript
+- NodeJS
 
-## Dynamic data
-Dynamic data is currently loaded through JSON files
+## Installation
 
+This project makes use of nodeJS, so you'll need to install it.
 
-for example
+Once it is installed, clone or download the github repository to your project folder of choice.
+
+CD into the root project folder and type this command to install all neccassary packages.
+
 ```
-[
-    {
-        "name": "Facebook",
-        "link": "https://www.facebook.com",
-        "icon_src": "icons/facebook.png"
-    },
-    {
-        "name": "Twitter",
-        "link": "https://www.twitter.com",
-        "icon_src": "icons/twitter.png"
-    },
-    {
-        "name": "Instagram",
-        "link": "https://www.instagram.com",
-        "icon_src": "icons/instagram.png"
-    }
-]
+npm i
+```
+
+Run the project once the packages have been installed
+
+```
+npm run dev
 ```
